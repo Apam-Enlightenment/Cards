@@ -1,0 +1,80 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    font-size: 15px;
+}
+.container{
+    
+    display: flex;
+    /*border: 5px dashed green;*/
+    border-radius: 1rem;
+    padding-left: 5rem;
+    margin-top: 3rem;
+    width: 60rem;
+    height: 30rem;
+}
+section{
+    width: 28%;
+    padding-bottom: 15rem;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+.inner-container{
+    width: 60%;
+    margin-left: 3rem;
+    margin-top: 4rem;
+    line-height: 1rem;
+}
+.sec-1{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: .5rem 0px 0px .5rem;
+}
+.btn-1{
+    color: hsl(31, 77%, 52%);
+}
+.btn-1:hover{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+.sec-2{
+    background-color: hsl(184, 100%, 22%);
+}
+.btn-2{
+    color: hsl(184, 100%, 22%);
+}
+.btn-2:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+}
+.sec-3{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px .5rem .5rem 0px;
+}
+.btn-3:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+}
+.btn-3{
+    color: hsl(179, 100%, 13%);
+    margin-top: 4rem;
+}
+h1{
+    margin-bottom: 2rem;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: bold;
+}
+button{
+    margin-top: 3rem;
+    text-align: center;
+    border-radius: 2rem;
+    border: 1px solid hsl(0, 0%, 95%);
+    height: 2.5rem;
+    width: 8rem;
+    cursor: pointer;
+}
